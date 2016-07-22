@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D74DEB981D4201EC00C93965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB971D4201EC00C93965 /* main.m */; };
+		D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9A1D4201EC00C93965 /* AppDelegate.m */; };
+		D74DEB9E1D4201EC00C93965 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9D1D4201EC00C93965 /* ViewController.m */; };
+		D74DEBA11D4201EC00C93965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74DEB9F1D4201EC00C93965 /* Main.storyboard */; };
+		D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74DEBA21D4201EC00C93965 /* Assets.xcassets */; };
+		D74DEBA61D4201EC00C93965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74DEBA41D4201EC00C93965 /* LaunchScreen.storyboard */; };
+		D74DEBB11D4201EC00C93965 /* TilomPhickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBB01D4201EC00C93965 /* TilomPhickTests.m */; };
+		D74DEBBC1D4201EC00C93965 /* TilomPhickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBBB1D4201EC00C93965 /* TilomPhickUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D74DEBAD1D4201EC00C93965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74DEB8B1D4201EC00C93965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74DEB921D4201EC00C93965;
+			remoteInfo = TilomPhick;
+		};
+		D74DEBB81D4201EC00C93965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74DEB8B1D4201EC00C93965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74DEB921D4201EC00C93965;
+			remoteInfo = TilomPhick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D74DEB931D4201EC00C93965 /* TilomPhick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilomPhick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74DEB971D4201EC00C93965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D74DEB991D4201EC00C93965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D74DEB9A1D4201EC00C93965 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D74DEB9C1D4201EC00C93965 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D74DEB9D1D4201EC00C93965 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D74DEBA01D4201EC00C93965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D74DEBA21D4201EC00C93965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D74DEBA51D4201EC00C93965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D74DEBA71D4201EC00C93965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74DEBAC1D4201EC00C93965 /* TilomPhickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilomPhickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74DEBB01D4201EC00C93965 /* TilomPhickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TilomPhickTests.m; sourceTree = "<group>"; };
+		D74DEBB21D4201EC00C93965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74DEBB71D4201EC00C93965 /* TilomPhickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilomPhickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74DEBBB1D4201EC00C93965 /* TilomPhickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TilomPhickUITests.m; sourceTree = "<group>"; };
+		D74DEBBD1D4201EC00C93965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74DEB901D4201EC00C93965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DEBA91D4201EC00C93965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DEBB41D4201EC00C93965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74DEB8A1D4201EC00C93965 = {
+			isa = PBXGroup;
+			children = (
+				D74DEB951D4201EC00C93965 /* TilomPhick */,
+				D74DEBAF1D4201EC00C93965 /* TilomPhickTests */,
+				D74DEBBA1D4201EC00C93965 /* TilomPhickUITests */,
+				D74DEB941D4201EC00C93965 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74DEB941D4201EC00C93965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEB931D4201EC00C93965 /* TilomPhick.app */,
+				D74DEBAC1D4201EC00C93965 /* TilomPhickTests.xctest */,
+				D74DEBB71D4201EC00C93965 /* TilomPhickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74DEB951D4201EC00C93965 /* TilomPhick */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEB991D4201EC00C93965 /* AppDelegate.h */,
+				D74DEB9A1D4201EC00C93965 /* AppDelegate.m */,
+				D74DEB9C1D4201EC00C93965 /* ViewController.h */,
+				D74DEB9D1D4201EC00C93965 /* ViewController.m */,
+				D74DEB9F1D4201EC00C93965 /* Main.storyboard */,
+				D74DEBA21D4201EC00C93965 /* Assets.xcassets */,
+				D74DEBA41D4201EC00C93965 /* LaunchScreen.storyboard */,
+				D74DEBA71D4201EC00C93965 /* Info.plist */,
+				D74DEB961D4201EC00C93965 /* Supporting Files */,
+			);
+			path = TilomPhick;
+			sourceTree = "<group>";
+		};
+		D74DEB961D4201EC00C93965 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEB971D4201EC00C93965 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D74DEBAF1D4201EC00C93965 /* TilomPhickTests */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBB01D4201EC00C93965 /* TilomPhickTests.m */,
+				D74DEBB21D4201EC00C93965 /* Info.plist */,
+			);
+			path = TilomPhickTests;
+			sourceTree = "<group>";
+		};
+		D74DEBBA1D4201EC00C93965 /* TilomPhickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBBB1D4201EC00C93965 /* TilomPhickUITests.m */,
+				D74DEBBD1D4201EC00C93965 /* Info.plist */,
+			);
+			path = TilomPhickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74DEB921D4201EC00C93965 /* TilomPhick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74DEBC01D4201EC00C93965 /* Build configuration list for PBXNativeTarget "TilomPhick" */;
+			buildPhases = (
+				D74DEB8F1D4201EC00C93965 /* Sources */,
+				D74DEB901D4201EC00C93965 /* Frameworks */,
+				D74DEB911D4201EC00C93965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TilomPhick;
+			productName = TilomPhick;
+			productReference = D74DEB931D4201EC00C93965 /* TilomPhick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D74DEBAB1D4201EC00C93965 /* TilomPhickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74DEBC31D4201EC00C93965 /* Build configuration list for PBXNativeTarget "TilomPhickTests" */;
+			buildPhases = (
+				D74DEBA81D4201EC00C93965 /* Sources */,
+				D74DEBA91D4201EC00C93965 /* Frameworks */,
+				D74DEBAA1D4201EC00C93965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74DEBAE1D4201EC00C93965 /* PBXTargetDependency */,
+			);
+			name = TilomPhickTests;
+			productName = TilomPhickTests;
+			productReference = D74DEBAC1D4201EC00C93965 /* TilomPhickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D74DEBB61D4201EC00C93965 /* TilomPhickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74DEBC61D4201EC00C93965 /* Build configuration list for PBXNativeTarget "TilomPhickUITests" */;
+			buildPhases = (
+				D74DEBB31D4201EC00C93965 /* Sources */,
+				D74DEBB41D4201EC00C93965 /* Frameworks */,
+				D74DEBB51D4201EC00C93965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74DEBB91D4201EC00C93965 /* PBXTargetDependency */,
+			);
+			name = TilomPhickUITests;
+			productName = TilomPhickUITests;
+			productReference = D74DEBB71D4201EC00C93965 /* TilomPhickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74DEB8B1D4201EC00C93965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QXB;
+				TargetAttributes = {
+					D74DEB921D4201EC00C93965 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D74DEBAB1D4201EC00C93965 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D74DEB921D4201EC00C93965;
+					};
+					D74DEBB61D4201EC00C93965 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D74DEB921D4201EC00C93965;
+					};
+				};
+			};
+			buildConfigurationList = D74DEB8E1D4201EC00C93965 /* Build configuration list for PBXProject "TilomPhick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74DEB8A1D4201EC00C93965;
+			productRefGroup = D74DEB941D4201EC00C93965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74DEB921D4201EC00C93965 /* TilomPhick */,
+				D74DEBAB1D4201EC00C93965 /* TilomPhickTests */,
+				D74DEBB61D4201EC00C93965 /* TilomPhickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74DEB911D4201EC00C93965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74DEBA61D4201EC00C93965 /* LaunchScreen.storyboard in Resources */,
+				D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */,
+				D74DEBA11D4201EC00C93965 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DEBAA1D4201EC00C93965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DEBB51D4201EC00C93965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74DEB8F1D4201EC00C93965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74DEB9E1D4201EC00C93965 /* ViewController.m in Sources */,
+				D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */,
+				D74DEB981D4201EC00C93965 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DEBA81D4201EC00C93965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74DEBB11D4201EC00C93965 /* TilomPhickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DEBB31D4201EC00C93965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74DEBBC1D4201EC00C93965 /* TilomPhickUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D74DEBAE1D4201EC00C93965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74DEB921D4201EC00C93965 /* TilomPhick */;
+			targetProxy = D74DEBAD1D4201EC00C93965 /* PBXContainerItemProxy */;
+		};
+		D74DEBB91D4201EC00C93965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74DEB921D4201EC00C93965 /* TilomPhick */;
+			targetProxy = D74DEBB81D4201EC00C93965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D74DEB9F1D4201EC00C93965 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74DEBA01D4201EC00C93965 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D74DEBA41D4201EC00C93965 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74DEBA51D4201EC00C93965 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74DEBBE1D4201EC00C93965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D74DEBBF1D4201EC00C93965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74DEBC11D4201EC00C93965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TilomPhick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qixibird.agent.TilomPhick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D74DEBC21D4201EC00C93965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TilomPhick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qixibird.agent.TilomPhick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D74DEBC41D4201EC00C93965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TilomPhickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qixibird.agent.TilomPhickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TilomPhick.app/TilomPhick";
+			};
+			name = Debug;
+		};
+		D74DEBC51D4201EC00C93965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TilomPhickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qixibird.agent.TilomPhickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TilomPhick.app/TilomPhick";
+			};
+			name = Release;
+		};
+		D74DEBC71D4201EC00C93965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TilomPhickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qixibird.agent.TilomPhickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TilomPhick;
+			};
+			name = Debug;
+		};
+		D74DEBC81D4201EC00C93965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TilomPhickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qixibird.agent.TilomPhickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TilomPhick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74DEB8E1D4201EC00C93965 /* Build configuration list for PBXProject "TilomPhick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74DEBBE1D4201EC00C93965 /* Debug */,
+				D74DEBBF1D4201EC00C93965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74DEBC01D4201EC00C93965 /* Build configuration list for PBXNativeTarget "TilomPhick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74DEBC11D4201EC00C93965 /* Debug */,
+				D74DEBC21D4201EC00C93965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D74DEBC31D4201EC00C93965 /* Build configuration list for PBXNativeTarget "TilomPhickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74DEBC41D4201EC00C93965 /* Debug */,
+				D74DEBC51D4201EC00C93965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D74DEBC61D4201EC00C93965 /* Build configuration list for PBXNativeTarget "TilomPhickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74DEBC71D4201EC00C93965 /* Debug */,
+				D74DEBC81D4201EC00C93965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74DEB8B1D4201EC00C93965 /* Project object */;
+}
