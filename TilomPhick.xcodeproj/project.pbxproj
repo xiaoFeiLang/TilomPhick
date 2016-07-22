@@ -16,6 +16,13 @@
 		D74DEBA61D4201EC00C93965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74DEBA41D4201EC00C93965 /* LaunchScreen.storyboard */; };
 		D74DEBB11D4201EC00C93965 /* TilomPhickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBB01D4201EC00C93965 /* TilomPhickTests.m */; };
 		D74DEBBC1D4201EC00C93965 /* TilomPhickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBBB1D4201EC00C93965 /* TilomPhickUITests.m */; };
+		D74DEBCF1D420A2800C93965 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBCE1D420A2800C93965 /* BaseViewController.m */; };
+		D74DEBD21D420A5700C93965 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBD11D420A5700C93965 /* BaseTableViewController.m */; };
+		D74DEBD71D420ADF00C93965 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBD61D420ADF00C93965 /* HomeVC.m */; };
+		D74DEBEB1D42125F00C93965 /* UIView+MessagePropagation.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBE71D42125F00C93965 /* UIView+MessagePropagation.m */; };
+		D74DEBEC1D42125F00C93965 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBE91D42125F00C93965 /* ViewUtils.m */; };
+		D74DEBEF1D42127100C93965 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBEE1D42127100C93965 /* HttpTool.m */; };
+		D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBF21D4214B600C93965 /* HomeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,20 @@
 		D74DEBBB1D4201EC00C93965 /* TilomPhickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TilomPhickUITests.m; sourceTree = "<group>"; };
 		D74DEBBD1D4201EC00C93965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74DEBCA1D4204C000C93965 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D74DEBCD1D420A2800C93965 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D74DEBCE1D420A2800C93965 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D74DEBD01D420A5700C93965 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		D74DEBD11D420A5700C93965 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		D74DEBD51D420ADF00C93965 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		D74DEBD61D420ADF00C93965 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		D74DEBE61D42125F00C93965 /* UIView+MessagePropagation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MessagePropagation.h"; sourceTree = "<group>"; };
+		D74DEBE71D42125F00C93965 /* UIView+MessagePropagation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MessagePropagation.m"; sourceTree = "<group>"; };
+		D74DEBE81D42125F00C93965 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		D74DEBE91D42125F00C93965 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		D74DEBED1D42127100C93965 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		D74DEBEE1D42127100C93965 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		D74DEBF11D4214B600C93965 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		D74DEBF21D4214B600C93965 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		E322DC8969DD21A11FD256AE /* libPods-TilomPhick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TilomPhick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,6 +138,10 @@
 		D74DEB951D4201EC00C93965 /* TilomPhick */ = {
 			isa = PBXGroup;
 			children = (
+				D74DEBE31D42125F00C93965 /* Expand */,
+				D74DEBD31D420AB200C93965 /* Classes */,
+				D74DEBCC1D420A1900C93965 /* Base */,
+				D74DEBCB1D42063E00C93965 /* Vender */,
 				D74DEB991D4201EC00C93965 /* AppDelegate.h */,
 				D74DEB9A1D4201EC00C93965 /* AppDelegate.m */,
 				D74DEB9C1D4201EC00C93965 /* ViewController.h */,
@@ -155,6 +180,88 @@
 				D74DEBBD1D4201EC00C93965 /* Info.plist */,
 			);
 			path = TilomPhickUITests;
+			sourceTree = "<group>";
+		};
+		D74DEBCB1D42063E00C93965 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		D74DEBCC1D420A1900C93965 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBCD1D420A2800C93965 /* BaseViewController.h */,
+				D74DEBCE1D420A2800C93965 /* BaseViewController.m */,
+				D74DEBD01D420A5700C93965 /* BaseTableViewController.h */,
+				D74DEBD11D420A5700C93965 /* BaseTableViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D74DEBD31D420AB200C93965 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBD41D420AD300C93965 /* HomeVC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D74DEBD41D420AD300C93965 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBF01D4214AD00C93965 /* Models */,
+				D74DEBD51D420ADF00C93965 /* HomeVC.h */,
+				D74DEBD61D420ADF00C93965 /* HomeVC.m */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		D74DEBE31D42125F00C93965 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBE41D42125F00C93965 /* Category */,
+				D74DEBEA1D42125F00C93965 /* Network */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		D74DEBE41D42125F00C93965 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBE51D42125F00C93965 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D74DEBE51D42125F00C93965 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBE61D42125F00C93965 /* UIView+MessagePropagation.h */,
+				D74DEBE71D42125F00C93965 /* UIView+MessagePropagation.m */,
+				D74DEBE81D42125F00C93965 /* ViewUtils.h */,
+				D74DEBE91D42125F00C93965 /* ViewUtils.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D74DEBEA1D42125F00C93965 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBED1D42127100C93965 /* HttpTool.h */,
+				D74DEBEE1D42127100C93965 /* HttpTool.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D74DEBF01D4214AD00C93965 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D74DEBF11D4214B600C93965 /* HomeModel.h */,
+				D74DEBF21D4214B600C93965 /* HomeModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FC52F95430C3AC157BF3BFA8 /* Pods */ = {
@@ -347,9 +454,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */,
 				D74DEB9E1D4201EC00C93965 /* ViewController.m in Sources */,
+				D74DEBCF1D420A2800C93965 /* BaseViewController.m in Sources */,
+				D74DEBEC1D42125F00C93965 /* ViewUtils.m in Sources */,
 				D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */,
+				D74DEBEB1D42125F00C93965 /* UIView+MessagePropagation.m in Sources */,
+				D74DEBD71D420ADF00C93965 /* HomeVC.m in Sources */,
 				D74DEB981D4201EC00C93965 /* main.m in Sources */,
+				D74DEBD21D420A5700C93965 /* BaseTableViewController.m in Sources */,
+				D74DEBEF1D42127100C93965 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +605,7 @@
 			baseConfigurationReference = 22A60EA219EC71D22F7B945D /* Pods-TilomPhick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/chenwei/Desktop/Loulou/MyBri/TilomPhick/TilomPhick/PrefixHeader.pch;
 				INFOPLIST_FILE = TilomPhick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qixibird.agent.TilomPhick;
@@ -503,6 +618,7 @@
 			baseConfigurationReference = 77804DC6148B1FCC04AF2AD9 /* Pods-TilomPhick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/chenwei/Desktop/Loulou/MyBri/TilomPhick/TilomPhick/PrefixHeader.pch;
 				INFOPLIST_FILE = TilomPhick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qixibird.agent.TilomPhick;

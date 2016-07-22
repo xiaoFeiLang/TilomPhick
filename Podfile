@@ -11,7 +11,8 @@ target 'TilomPhick' do
     pod 'SDWebImage' #图片加载,缓存
     pod 'MJRefresh' #刷新
     pod 'YYModel' #数据转模型
-
+    pod 'SDCycleScrollView'
+pod 'MJExtension'
 end
 
 target 'TilomPhickTests' do
