@@ -1,0 +1,57 @@
+//
+//  PrefixHeader.pch
+//  TilomPhick
+//
+//  Created by Loulou on 16/7/22.
+//  Copyright © 2016年 QXB. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Masonry.h"
+#import "YYModel.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//每页条数
+#define TABLEVIEW_PAGE_SIZE 15
+
+
+//获取设备的物理高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//获取设备的物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+//自动比例
+#define P_X(x)                  x / 640.f
+#define P_Y(y)                  y / 1136.f
+#define RC_X(x)                 P_X(x) * ([UIScreen mainScreen].bounds.size.width < 320.f ? 320.f : [UIScreen mainScreen].bounds.size.width)
+#define RC_Y(y)                 P_Y(y) * ([UIScreen mainScreen].bounds.size.height < 568.f ? 568.f : [UIScreen mainScreen].bounds.size.height)
+
+//获取设备的物理宽度、高度
+#define SCREEN_WIDTH            [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT           [[UIScreen mainScreen] bounds].size.height
+
+#define IOS8_OR_LATER   ([[[UIDevice currentDevice] systemVersion] compare:@"8.0"] != NSOrderedAscending)
+#define IOS7_OR_LATER   ([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending)
+#define ROOMTYPEVIEW_TAG 2223
+
+//常用方法
+#define WEAK_SELF                   __weak typeof(self) wself = self;
+#define RGB(r,g,b)                  [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:1.f]
+#define RGBA(r,g,b,a)               [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:a]
+#define RGBHEX(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16))/255.0 green:((float)((hex & 0xFF00) >> 8))/255.0 blue:((float)(hex & 0xFF))/255.0 alpha:1.0]
+#define FONT(_size_)                [UIFont systemFontOfSize:_size_]
+#define LOAD_IMAGE(name)            [UIImage imageNamed:name]
+#define LOAD_NIB(name)              [UINib nibWithNibName:name bundle:nil]
+#define LOAD_NIB_TO_FILE(name)      [[[NSBundle mainBundle] loadNibNamed:name owner:self options:nil] firstObject]
+
+#define DISPATCH_DELAY_TIME(time) dispatch_time(DISPATCH_TIME_NOW, (int64_t)(time * NSEC_PER_SEC))
+
+#define SYSTEM_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+
+
+#endif /* PrefixHeader_pch */
