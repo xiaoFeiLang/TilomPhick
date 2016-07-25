@@ -27,8 +27,14 @@
     items = [@"Lunbo Bravo Charlie Delta Echo Foxtrot Golf Hotel India Juliet Kilo Lima Mike November Oscar Papa Romeo Quebec Sierra Tango Uniform Victor Whiskey Xray Yankee Zulu" componentsSeparatedByString:@" "];
     stateDictionary = [NSMutableDictionary dictionary];
 
+
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+
+    [super viewWillAppear:animated];
+//    self.tabBarController.navigationItem.title = @"首页";
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -82,8 +88,8 @@
 //    cell.accessoryType = isChecked ? UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
     
     
-//    HomeVC *vc = [[HomeVC alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+    HomeVC *vc = [[HomeVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
     
     
 }

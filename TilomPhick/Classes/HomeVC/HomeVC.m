@@ -21,10 +21,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.isShowTabbar = YES;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     [self addSDCycleView];
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [self.rdv_tabBarController setTabBarHidden:NO animated:NO];
+    [super viewWillAppear:animated];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }

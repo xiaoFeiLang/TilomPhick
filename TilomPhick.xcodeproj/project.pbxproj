@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D49DED43681689C364FC1803 /* libPods-TilomPhick.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E322DC8969DD21A11FD256AE /* libPods-TilomPhick.a */; };
+		D72444BE1D45B74D00022255 /* VTGeneralTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444BD1D45B74D00022255 /* VTGeneralTool.m */; };
+		D72444DA1D45EA4100022255 /* AssetsLibraryD.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444CE1D45EA4100022255 /* AssetsLibraryD.m */; };
+		D72444DB1D45EA4100022255 /* HCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444D01D45EA4100022255 /* HCollectionViewCell.m */; };
+		D72444DC1D45EA4100022255 /* HySideScrollingImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444D21D45EA4100022255 /* HySideScrollingImagePicker.m */; };
+		D72444DD1D45EA4100022255 /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D72444D31D45EA4100022255 /* ImageResources.bundle */; };
+		D72444DE1D45EA4100022255 /* ParallAxTableViewCells.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444D51D45EA4100022255 /* ParallAxTableViewCells.m */; };
+		D72444DF1D45EA4100022255 /* SideScrollingCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444D71D45EA4100022255 /* SideScrollingCheckCell.m */; };
+		D72444E01D45EA4100022255 /* SideScrollingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444D91D45EA4100022255 /* SideScrollingLayout.m */; };
+		D72444E41D45EAD400022255 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444E31D45EAD400022255 /* TestVC.m */; };
+		D72444EB1D45FF4600022255 /* SecondTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444EA1D45FF4600022255 /* SecondTestVC.m */; };
+		D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444ED1D46071500022255 /* BaseTabBarViewController.m */; };
+		D72444F11D46126500022255 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444F01D46126500022255 /* BaseNavViewController.m */; };
 		D74DEB981D4201EC00C93965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB971D4201EC00C93965 /* main.m */; };
 		D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9A1D4201EC00C93965 /* AppDelegate.m */; };
 		D74DEB9E1D4201EC00C93965 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9D1D4201EC00C93965 /* ViewController.m */; };
@@ -45,6 +57,30 @@
 /* Begin PBXFileReference section */
 		22A60EA219EC71D22F7B945D /* Pods-TilomPhick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilomPhick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TilomPhick/Pods-TilomPhick.debug.xcconfig"; sourceTree = "<group>"; };
 		77804DC6148B1FCC04AF2AD9 /* Pods-TilomPhick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilomPhick.release.xcconfig"; path = "Pods/Target Support Files/Pods-TilomPhick/Pods-TilomPhick.release.xcconfig"; sourceTree = "<group>"; };
+		D72444BC1D45B74D00022255 /* VTGeneralTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTGeneralTool.h; sourceTree = "<group>"; };
+		D72444BD1D45B74D00022255 /* VTGeneralTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTGeneralTool.m; sourceTree = "<group>"; };
+		D72444BF1D45B81700022255 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
+		D72444CD1D45EA4100022255 /* AssetsLibraryD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsLibraryD.h; sourceTree = "<group>"; };
+		D72444CE1D45EA4100022255 /* AssetsLibraryD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsLibraryD.m; sourceTree = "<group>"; };
+		D72444CF1D45EA4100022255 /* HCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCollectionViewCell.h; sourceTree = "<group>"; };
+		D72444D01D45EA4100022255 /* HCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCollectionViewCell.m; sourceTree = "<group>"; };
+		D72444D11D45EA4100022255 /* HySideScrollingImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySideScrollingImagePicker.h; sourceTree = "<group>"; };
+		D72444D21D45EA4100022255 /* HySideScrollingImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySideScrollingImagePicker.m; sourceTree = "<group>"; };
+		D72444D31D45EA4100022255 /* ImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ImageResources.bundle; sourceTree = "<group>"; };
+		D72444D41D45EA4100022255 /* ParallAxTableViewCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallAxTableViewCells.h; sourceTree = "<group>"; };
+		D72444D51D45EA4100022255 /* ParallAxTableViewCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallAxTableViewCells.m; sourceTree = "<group>"; };
+		D72444D61D45EA4100022255 /* SideScrollingCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideScrollingCheckCell.h; sourceTree = "<group>"; };
+		D72444D71D45EA4100022255 /* SideScrollingCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideScrollingCheckCell.m; sourceTree = "<group>"; };
+		D72444D81D45EA4100022255 /* SideScrollingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideScrollingLayout.h; sourceTree = "<group>"; };
+		D72444D91D45EA4100022255 /* SideScrollingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideScrollingLayout.m; sourceTree = "<group>"; };
+		D72444E21D45EAD400022255 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		D72444E31D45EAD400022255 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		D72444E91D45FF4600022255 /* SecondTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTestVC.h; sourceTree = "<group>"; };
+		D72444EA1D45FF4600022255 /* SecondTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTestVC.m; sourceTree = "<group>"; };
+		D72444EC1D46071500022255 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		D72444ED1D46071500022255 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		D72444EF1D46126500022255 /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		D72444F01D46126500022255 /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
 		D74DEB931D4201EC00C93965 /* TilomPhick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilomPhick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74DEB971D4201EC00C93965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D74DEB991D4201EC00C93965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +147,55 @@
 				E322DC8969DD21A11FD256AE /* libPods-TilomPhick.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D72444BB1D45B74700022255 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D72444BF1D45B81700022255 /* ACMacros.h */,
+				D72444BC1D45B74D00022255 /* VTGeneralTool.h */,
+				D72444BD1D45B74D00022255 /* VTGeneralTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D72444CB1D45EA4100022255 /* HyImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D72444CC1D45EA4100022255 /* ALAssetsLibrary */,
+				D72444CF1D45EA4100022255 /* HCollectionViewCell.h */,
+				D72444D01D45EA4100022255 /* HCollectionViewCell.m */,
+				D72444D11D45EA4100022255 /* HySideScrollingImagePicker.h */,
+				D72444D21D45EA4100022255 /* HySideScrollingImagePicker.m */,
+				D72444D31D45EA4100022255 /* ImageResources.bundle */,
+				D72444D41D45EA4100022255 /* ParallAxTableViewCells.h */,
+				D72444D51D45EA4100022255 /* ParallAxTableViewCells.m */,
+				D72444D61D45EA4100022255 /* SideScrollingCheckCell.h */,
+				D72444D71D45EA4100022255 /* SideScrollingCheckCell.m */,
+				D72444D81D45EA4100022255 /* SideScrollingLayout.h */,
+				D72444D91D45EA4100022255 /* SideScrollingLayout.m */,
+			);
+			path = HyImagePicker;
+			sourceTree = "<group>";
+		};
+		D72444CC1D45EA4100022255 /* ALAssetsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				D72444CD1D45EA4100022255 /* AssetsLibraryD.h */,
+				D72444CE1D45EA4100022255 /* AssetsLibraryD.m */,
+			);
+			path = ALAssetsLibrary;
+			sourceTree = "<group>";
+		};
+		D72444E11D45EAC200022255 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				D72444E21D45EAD400022255 /* TestVC.h */,
+				D72444E31D45EAD400022255 /* TestVC.m */,
+				D72444E91D45FF4600022255 /* SecondTestVC.h */,
+				D72444EA1D45FF4600022255 /* SecondTestVC.m */,
+			);
+			path = TestVC;
 			sourceTree = "<group>";
 		};
 		D74DEB8A1D4201EC00C93965 = {
@@ -185,6 +270,7 @@
 		D74DEBCB1D42063E00C93965 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				D72444CB1D45EA4100022255 /* HyImagePicker */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -196,6 +282,10 @@
 				D74DEBCE1D420A2800C93965 /* BaseViewController.m */,
 				D74DEBD01D420A5700C93965 /* BaseTableViewController.h */,
 				D74DEBD11D420A5700C93965 /* BaseTableViewController.m */,
+				D72444EC1D46071500022255 /* BaseTabBarViewController.h */,
+				D72444ED1D46071500022255 /* BaseTabBarViewController.m */,
+				D72444EF1D46126500022255 /* BaseNavViewController.h */,
+				D72444F01D46126500022255 /* BaseNavViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -203,6 +293,7 @@
 		D74DEBD31D420AB200C93965 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D72444E11D45EAC200022255 /* TestVC */,
 				D74DEBD41D420AD300C93965 /* HomeVC */,
 			);
 			path = Classes;
@@ -221,6 +312,7 @@
 		D74DEBE31D42125F00C93965 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				D72444BB1D45B74700022255 /* Tools */,
 				D74DEBE41D42125F00C93965 /* Category */,
 				D74DEBEA1D42125F00C93965 /* Network */,
 			);
@@ -382,6 +474,7 @@
 				D74DEBA61D4201EC00C93965 /* LaunchScreen.storyboard in Resources */,
 				D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */,
 				D74DEBA11D4201EC00C93965 /* Main.storyboard in Resources */,
+				D72444DD1D45EA4100022255 /* ImageResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,13 +550,24 @@
 				D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */,
 				D74DEB9E1D4201EC00C93965 /* ViewController.m in Sources */,
 				D74DEBCF1D420A2800C93965 /* BaseViewController.m in Sources */,
+				D72444E01D45EA4100022255 /* SideScrollingLayout.m in Sources */,
+				D72444DF1D45EA4100022255 /* SideScrollingCheckCell.m in Sources */,
 				D74DEBEC1D42125F00C93965 /* ViewUtils.m in Sources */,
+				D72444EB1D45FF4600022255 /* SecondTestVC.m in Sources */,
+				D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */,
 				D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */,
 				D74DEBEB1D42125F00C93965 /* UIView+MessagePropagation.m in Sources */,
+				D72444BE1D45B74D00022255 /* VTGeneralTool.m in Sources */,
+				D72444DB1D45EA4100022255 /* HCollectionViewCell.m in Sources */,
 				D74DEBD71D420ADF00C93965 /* HomeVC.m in Sources */,
+				D72444DC1D45EA4100022255 /* HySideScrollingImagePicker.m in Sources */,
+				D72444E41D45EAD400022255 /* TestVC.m in Sources */,
 				D74DEB981D4201EC00C93965 /* main.m in Sources */,
 				D74DEBD21D420A5700C93965 /* BaseTableViewController.m in Sources */,
 				D74DEBEF1D42127100C93965 /* HttpTool.m in Sources */,
+				D72444DA1D45EA4100022255 /* AssetsLibraryD.m in Sources */,
+				D72444DE1D45EA4100022255 /* ParallAxTableViewCells.m in Sources */,
+				D72444F11D46126500022255 /* BaseNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
