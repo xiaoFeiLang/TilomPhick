@@ -12,7 +12,9 @@ target 'TilomPhick' do
     pod 'MJRefresh' #刷新
     pod 'YYModel' #数据转模型
     pod 'SDCycleScrollView'
-pod 'MJExtension'
+    pod 'BlocksKit'
+    pod 'RDVTabBarController'
+    pod 'MJExtension'
 end
 
 target 'TilomPhickTests' do

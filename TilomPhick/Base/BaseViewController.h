@@ -10,4 +10,5 @@
 
 @interface BaseViewController : UIViewController
 
+@property (nonatomic, assign) BOOL isShowTabbar;
 @end
