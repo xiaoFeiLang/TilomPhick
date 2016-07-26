@@ -10,12 +10,12 @@
 
 @implementation EqualWidthButtonCell
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)awakeFromNib{
+    [super awakeFromNib];
+//    [self.ff setButtonTitleWithImageAlignment:UIButtonTitleWithImageAlignmentDown imgTextDistance:0];
+//    [self.ff setTitle:@"button" forState:UIControlStateNormal];
+//    self.ff.titleLabel.font = FONT(11);
+//    [self.ff setImage:[UIImage imageNamed:@"btn_redPacket_close"] forState:UIControlStateNormal];
 }
-*/
 
 @end

@@ -30,6 +30,9 @@
 		D743B6511D474F4E00BFFE34 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6501D474F4E00BFFE34 /* BaseTableViewCell.m */; };
 		D743B65B1D47516800BFFE34 /* EqualWidthButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6591D47516800BFFE34 /* EqualWidthButtonCell.m */; };
 		D743B65C1D47516800BFFE34 /* EqualWidthButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D743B65A1D47516800BFFE34 /* EqualWidthButtonCell.xib */; };
+		D743B6611D47558600BFFE34 /* CustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6601D47558600BFFE34 /* CustomerButton.m */; };
+		D743B6641D475C9B00BFFE34 /* UIButton+MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6631D475C9B00BFFE34 /* UIButton+MyButton.m */; };
+		D743B6671D4761CF00BFFE34 /* EqualWidthButtonCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6661D4761CF00BFFE34 /* EqualWidthButtonCell2.m */; };
 		D74DEB981D4201EC00C93965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB971D4201EC00C93965 /* main.m */; };
 		D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9A1D4201EC00C93965 /* AppDelegate.m */; };
 		D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74DEBA21D4201EC00C93965 /* Assets.xcassets */; };
@@ -106,6 +109,12 @@
 		D743B6581D47516800BFFE34 /* EqualWidthButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualWidthButtonCell.h; sourceTree = "<group>"; };
 		D743B6591D47516800BFFE34 /* EqualWidthButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualWidthButtonCell.m; sourceTree = "<group>"; };
 		D743B65A1D47516800BFFE34 /* EqualWidthButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EqualWidthButtonCell.xib; sourceTree = "<group>"; };
+		D743B65F1D47558600BFFE34 /* CustomerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerButton.h; sourceTree = "<group>"; };
+		D743B6601D47558600BFFE34 /* CustomerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerButton.m; sourceTree = "<group>"; };
+		D743B6621D475C9B00BFFE34 /* UIButton+MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MyButton.h"; sourceTree = "<group>"; };
+		D743B6631D475C9B00BFFE34 /* UIButton+MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MyButton.m"; sourceTree = "<group>"; };
+		D743B6651D4761CF00BFFE34 /* EqualWidthButtonCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualWidthButtonCell2.h; sourceTree = "<group>"; };
+		D743B6661D4761CF00BFFE34 /* EqualWidthButtonCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualWidthButtonCell2.m; sourceTree = "<group>"; };
 		D74DEB931D4201EC00C93965 /* TilomPhick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilomPhick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74DEB971D4201EC00C93965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D74DEB991D4201EC00C93965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -274,8 +283,29 @@
 				D743B6581D47516800BFFE34 /* EqualWidthButtonCell.h */,
 				D743B6591D47516800BFFE34 /* EqualWidthButtonCell.m */,
 				D743B65A1D47516800BFFE34 /* EqualWidthButtonCell.xib */,
+				D743B6651D4761CF00BFFE34 /* EqualWidthButtonCell2.h */,
+				D743B6661D4761CF00BFFE34 /* EqualWidthButtonCell2.m */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		D743B65D1D47555C00BFFE34 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				D743B65E1D47557300BFFE34 /* UIView */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		D743B65E1D47557300BFFE34 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D743B65F1D47558600BFFE34 /* CustomerButton.h */,
+				D743B6601D47558600BFFE34 /* CustomerButton.m */,
+				D743B6621D475C9B00BFFE34 /* UIButton+MyButton.h */,
+				D743B6631D475C9B00BFFE34 /* UIButton+MyButton.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		D74DEB8A1D4201EC00C93965 = {
@@ -377,6 +407,7 @@
 				D74DEBD41D420AD300C93965 /* HomeVC */,
 				D743B6421D4727AE00BFFE34 /* CupVC */,
 				D743B6411D47279100BFFE34 /* MySelfVC */,
+				D743B65D1D47555C00BFFE34 /* Customer */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -638,11 +669,14 @@
 				D74DEBCF1D420A2800C93965 /* BaseViewController.m in Sources */,
 				D72444E01D45EA4100022255 /* SideScrollingLayout.m in Sources */,
 				D72444DF1D45EA4100022255 /* SideScrollingCheckCell.m in Sources */,
+				D743B6611D47558600BFFE34 /* CustomerButton.m in Sources */,
 				D74DEBEC1D42125F00C93965 /* ViewUtils.m in Sources */,
 				D72444EB1D45FF4600022255 /* SecondTestVC.m in Sources */,
 				D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */,
 				D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */,
 				D743B6511D474F4E00BFFE34 /* BaseTableViewCell.m in Sources */,
+				D743B6641D475C9B00BFFE34 /* UIButton+MyButton.m in Sources */,
+				D743B6671D4761CF00BFFE34 /* EqualWidthButtonCell2.m in Sources */,
 				D743B64D1D4744C800BFFE34 /* LXNetworking.m in Sources */,
 				D74DEBEB1D42125F00C93965 /* UIView+MessagePropagation.m in Sources */,
 				D72444BE1D45B74D00022255 /* VTGeneralTool.m in Sources */,

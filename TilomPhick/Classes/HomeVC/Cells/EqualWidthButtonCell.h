@@ -7,7 +7,11 @@
 //
 
 #import "BaseTableViewCell.h"
+#import "UIButton+MyButton.h"
+#import "CustomerButton.h"
+
 
 @interface EqualWidthButtonCell : BaseTableViewCell
+@property (weak, nonatomic) IBOutlet CustomerButton *ff;
 
 @end
