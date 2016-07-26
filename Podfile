@@ -15,6 +15,7 @@ target 'TilomPhick' do
     pod 'BlocksKit'
     pod 'RDVTabBarController'
     pod 'MJExtension'
+pod 'SpinKit'
 end
 
 target 'TilomPhickTests' do

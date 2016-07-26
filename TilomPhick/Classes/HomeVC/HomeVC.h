@@ -8,6 +8,10 @@
 
 #import "BaseTableViewController.h"
 
+/**
+ tableView HeaderView : 轮播
+ row ＝ 1 ：等宽按钮
+ */
 @interface HomeVC : BaseTableViewController
 
 @end
