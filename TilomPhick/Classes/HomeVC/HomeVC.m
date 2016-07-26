@@ -10,6 +10,7 @@
 #import "SDCycleScrollView.h"
 #import "HttpTool.h"
 #import "HomeModel.h"
+#import "EqualWidthButtonCell.h"
 
 @interface HomeVC ()<SDCycleScrollViewDelegate>
 {
@@ -27,7 +28,10 @@
     [super viewDidLoad];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"EqualWidthButtonCell" bundle:nil] forCellReuseIdentifier:@"EqualWidthButtonCell"];
+    self.tableView.rowHeight = RC_Y(130);
     [self addSDCycleView];
+
     self.title = @"轮播";
     [self messageBar];
 }
@@ -44,7 +48,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    EqualWidthButtonCell *cell = [tableView dequeueReusableCellWithIdentifier:@"EqualWidthButtonCell"];
     return cell;
 }
 #pragma mark - Customer Methods

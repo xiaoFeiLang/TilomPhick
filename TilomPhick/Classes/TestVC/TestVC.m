@@ -46,7 +46,7 @@
         
 
 // 网络请求(下载)
-        
+//        [self showLoadingAnimation];
 //        NSString *path=[NSHomeDirectory() stringByAppendingString:[NSString stringWithFormat:@"/Documents/image.jpg"]];
 //        _task = [LXNetworking downloadWithUrl:@"http://www.aomy.com/attach/2012-09/1347583576vgC6.jpg" saveToPath:path progress:^(int64_t bytesProgress, int64_t totalBytesProgress) {
 //            //封装方法里已经回到主线程，所有这里不用再调主线程了
@@ -54,6 +54,7 @@
 //        
 //        } success:^(id response) {
 //            NSLog(@"---------%@",response);
+//            [self stopLoadingAnimation];
 //
 //        } failure:^(NSError *error) {
 //            

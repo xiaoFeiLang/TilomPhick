@@ -27,6 +27,9 @@
 		D743B6451D4727C000BFFE34 /* MySelfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6441D4727C000BFFE34 /* MySelfVC.m */; };
 		D743B6481D4727CE00BFFE34 /* CupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6471D4727CE00BFFE34 /* CupVC.m */; };
 		D743B64D1D4744C800BFFE34 /* LXNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B64C1D4744C800BFFE34 /* LXNetworking.m */; };
+		D743B6511D474F4E00BFFE34 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6501D474F4E00BFFE34 /* BaseTableViewCell.m */; };
+		D743B65B1D47516800BFFE34 /* EqualWidthButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6591D47516800BFFE34 /* EqualWidthButtonCell.m */; };
+		D743B65C1D47516800BFFE34 /* EqualWidthButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D743B65A1D47516800BFFE34 /* EqualWidthButtonCell.xib */; };
 		D74DEB981D4201EC00C93965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB971D4201EC00C93965 /* main.m */; };
 		D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9A1D4201EC00C93965 /* AppDelegate.m */; };
 		D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74DEBA21D4201EC00C93965 /* Assets.xcassets */; };
@@ -98,6 +101,11 @@
 		D743B6471D4727CE00BFFE34 /* CupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupVC.m; sourceTree = "<group>"; };
 		D743B64B1D4744C800BFFE34 /* LXNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNetworking.h; sourceTree = "<group>"; };
 		D743B64C1D4744C800BFFE34 /* LXNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNetworking.m; sourceTree = "<group>"; };
+		D743B64F1D474F4E00BFFE34 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		D743B6501D474F4E00BFFE34 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		D743B6581D47516800BFFE34 /* EqualWidthButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualWidthButtonCell.h; sourceTree = "<group>"; };
+		D743B6591D47516800BFFE34 /* EqualWidthButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualWidthButtonCell.m; sourceTree = "<group>"; };
+		D743B65A1D47516800BFFE34 /* EqualWidthButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EqualWidthButtonCell.xib; sourceTree = "<group>"; };
 		D74DEB931D4201EC00C93965 /* TilomPhick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilomPhick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74DEB971D4201EC00C93965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D74DEB991D4201EC00C93965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -206,6 +214,7 @@
 		D72444E11D45EAC200022255 /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
+				D743B64E1D474F2F00BFFE34 /* Cells */,
 				D72444E21D45EAD400022255 /* TestVC.h */,
 				D72444E31D45EAD400022255 /* TestVC.m */,
 				D72444E91D45FF4600022255 /* SecondTestVC.h */,
@@ -250,6 +259,23 @@
 				D743B64C1D4744C800BFFE34 /* LXNetworking.m */,
 			);
 			name = LXNetworking;
+			sourceTree = "<group>";
+		};
+		D743B64E1D474F2F00BFFE34 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D743B6571D47516800BFFE34 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D743B6581D47516800BFFE34 /* EqualWidthButtonCell.h */,
+				D743B6591D47516800BFFE34 /* EqualWidthButtonCell.m */,
+				D743B65A1D47516800BFFE34 /* EqualWidthButtonCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D74DEB8A1D4201EC00C93965 = {
@@ -338,6 +364,8 @@
 				D72444ED1D46071500022255 /* BaseTabBarViewController.m */,
 				D72444EF1D46126500022255 /* BaseNavViewController.h */,
 				D72444F01D46126500022255 /* BaseNavViewController.m */,
+				D743B64F1D474F4E00BFFE34 /* BaseTableViewCell.h */,
+				D743B6501D474F4E00BFFE34 /* BaseTableViewCell.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -356,6 +384,7 @@
 		D74DEBD41D420AD300C93965 /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
+				D743B6571D47516800BFFE34 /* Cells */,
 				D74DEBF01D4214AD00C93965 /* Models */,
 				D74DEBD51D420ADF00C93965 /* HomeVC.h */,
 				D74DEBD61D420ADF00C93965 /* HomeVC.m */,
@@ -528,6 +557,7 @@
 			files = (
 				D74DEBA61D4201EC00C93965 /* LaunchScreen.storyboard in Resources */,
 				D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */,
+				D743B65C1D47516800BFFE34 /* EqualWidthButtonCell.xib in Resources */,
 				D743B63B1D47146B00BFFE34 /* MSAlertController.xib in Resources */,
 				D743B63C1D47146B00BFFE34 /* MSAlertController_ActionSheet.xib in Resources */,
 				D72444DD1D45EA4100022255 /* ImageResources.bundle in Resources */,
@@ -603,6 +633,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D743B65B1D47516800BFFE34 /* EqualWidthButtonCell.m in Sources */,
 				D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */,
 				D74DEBCF1D420A2800C93965 /* BaseViewController.m in Sources */,
 				D72444E01D45EA4100022255 /* SideScrollingLayout.m in Sources */,
@@ -611,6 +642,7 @@
 				D72444EB1D45FF4600022255 /* SecondTestVC.m in Sources */,
 				D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */,
 				D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */,
+				D743B6511D474F4E00BFFE34 /* BaseTableViewCell.m in Sources */,
 				D743B64D1D4744C800BFFE34 /* LXNetworking.m in Sources */,
 				D74DEBEB1D42125F00C93965 /* UIView+MessagePropagation.m in Sources */,
 				D72444BE1D45B74D00022255 /* VTGeneralTool.m in Sources */,
