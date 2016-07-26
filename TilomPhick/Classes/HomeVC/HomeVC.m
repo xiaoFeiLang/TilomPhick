@@ -21,14 +21,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.isShowTabbar = YES;
+    
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    [self addSDCycleView];
-}
+//    [self addSDCycleView];
+//     [self showNoMoreData];
+//    RTSpinKitView *spinner = [[RTSpinKitView alloc] initWithStyle:RTSpinKitViewStyleWave];
+//    [self.tableView addSubview:spinner];
+    
+    
+    [self showLoadingAnimation];
+   }
 
 - (void)viewWillAppear:(BOOL)animated{
     [self.rdv_tabBarController setTabBarHidden:NO animated:NO];
     [super viewWillAppear:animated];
+   
     
 }
 - (void)didReceiveMemoryWarning {

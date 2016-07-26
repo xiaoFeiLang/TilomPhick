@@ -59,6 +59,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SpinKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,12 +72,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>17C3BC1C9C4B544848C61822D6D1BAFC</key>
+		<key>476B95683C7C252FB450FD2217A9D3AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2C1F06C47EE8DDB493557AD61551C4B2</key>
+		<key>4884291102CF6FC8CEF5CB7636F89199</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +87,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>63409756FB96B63B01D48EDB26D7A29F</key>
+		<key>560A252A4D51BBC767E9E79F3B3A17BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,12 +97,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>928353533005A4198EBDA5B700D37B64</key>
+		<key>7C6235AF40B518E916C24729E244B7B6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>97B9D7740720EBBA7DC308B329101818</key>
+		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -107,7 +112,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C29DCDF9760304B87FC9530ADE253229</key>
+		<key>A5204F7097794ADDA6689CBD7E0D4CD9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -118,6 +123,11 @@
 			<true/>
 		</dict>
 		<key>DA1A7295DF2A99609DA0EEBF5E83233D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFBA21F459E5D5C66B868D22C6CED3BA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

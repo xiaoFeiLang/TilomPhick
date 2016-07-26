@@ -33,9 +33,10 @@
 //    }];
 //***************************************************   end   ************************************************************
         
-        SecondTestVC *vc = [[SecondTestVC alloc] init];
-        [vc.rdv_tabBarController setTabBarHidden:NO animated:YES];
-        [self.navigationController pushViewController:vc animated:YES];
+//        SecondTestVC *vc = [[SecondTestVC alloc] init];
+//        [vc.rdv_tabBarController setTabBarHidden:NO animated:YES];
+//        [self.navigationController pushViewController:vc animated:YES];
+        [self showShouldLoginPoint];
         
     } forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];

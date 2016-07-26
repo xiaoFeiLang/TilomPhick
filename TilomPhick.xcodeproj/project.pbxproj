@@ -20,6 +20,10 @@
 		D72444EB1D45FF4600022255 /* SecondTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444EA1D45FF4600022255 /* SecondTestVC.m */; };
 		D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444ED1D46071500022255 /* BaseTabBarViewController.m */; };
 		D72444F11D46126500022255 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444F01D46126500022255 /* BaseNavViewController.m */; };
+		D743B63A1D47146B00BFFE34 /* MSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6371D47146B00BFFE34 /* MSAlertController.m */; };
+		D743B63B1D47146B00BFFE34 /* MSAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D743B6381D47146B00BFFE34 /* MSAlertController.xib */; };
+		D743B63C1D47146B00BFFE34 /* MSAlertController_ActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D743B6391D47146B00BFFE34 /* MSAlertController_ActionSheet.xib */; };
+		D743B63F1D47166600BFFE34 /* CWStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B63E1D47166600BFFE34 /* CWStatusBarNotification.m */; };
 		D74DEB981D4201EC00C93965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB971D4201EC00C93965 /* main.m */; };
 		D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9A1D4201EC00C93965 /* AppDelegate.m */; };
 		D74DEB9E1D4201EC00C93965 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9D1D4201EC00C93965 /* ViewController.m */; };
@@ -81,6 +85,12 @@
 		D72444ED1D46071500022255 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
 		D72444EF1D46126500022255 /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
 		D72444F01D46126500022255 /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		D743B6361D47146B00BFFE34 /* MSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAlertController.h; sourceTree = "<group>"; };
+		D743B6371D47146B00BFFE34 /* MSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAlertController.m; sourceTree = "<group>"; };
+		D743B6381D47146B00BFFE34 /* MSAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAlertController.xib; sourceTree = "<group>"; };
+		D743B6391D47146B00BFFE34 /* MSAlertController_ActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAlertController_ActionSheet.xib; sourceTree = "<group>"; };
+		D743B63D1D47166600BFFE34 /* CWStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStatusBarNotification.h; sourceTree = "<group>"; };
+		D743B63E1D47166600BFFE34 /* CWStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStatusBarNotification.m; sourceTree = "<group>"; };
 		D74DEB931D4201EC00C93965 /* TilomPhick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilomPhick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74DEB971D4201EC00C93965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D74DEB991D4201EC00C93965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,6 +165,8 @@
 				D72444BF1D45B81700022255 /* ACMacros.h */,
 				D72444BC1D45B74D00022255 /* VTGeneralTool.h */,
 				D72444BD1D45B74D00022255 /* VTGeneralTool.m */,
+				D743B63D1D47166600BFFE34 /* CWStatusBarNotification.h */,
+				D743B63E1D47166600BFFE34 /* CWStatusBarNotification.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -196,6 +208,17 @@
 				D72444EA1D45FF4600022255 /* SecondTestVC.m */,
 			);
 			path = TestVC;
+			sourceTree = "<group>";
+		};
+		D743B6351D47146B00BFFE34 /* MSAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				D743B6361D47146B00BFFE34 /* MSAlertController.h */,
+				D743B6371D47146B00BFFE34 /* MSAlertController.m */,
+				D743B6381D47146B00BFFE34 /* MSAlertController.xib */,
+				D743B6391D47146B00BFFE34 /* MSAlertController_ActionSheet.xib */,
+			);
+			path = MSAlertController;
 			sourceTree = "<group>";
 		};
 		D74DEB8A1D4201EC00C93965 = {
@@ -270,6 +293,7 @@
 		D74DEBCB1D42063E00C93965 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				D743B6351D47146B00BFFE34 /* MSAlertController */,
 				D72444CB1D45EA4100022255 /* HyImagePicker */,
 			);
 			path = Vender;
@@ -474,6 +498,8 @@
 				D74DEBA61D4201EC00C93965 /* LaunchScreen.storyboard in Resources */,
 				D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */,
 				D74DEBA11D4201EC00C93965 /* Main.storyboard in Resources */,
+				D743B63B1D47146B00BFFE34 /* MSAlertController.xib in Resources */,
+				D743B63C1D47146B00BFFE34 /* MSAlertController_ActionSheet.xib in Resources */,
 				D72444DD1D45EA4100022255 /* ImageResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +591,8 @@
 				D74DEB981D4201EC00C93965 /* main.m in Sources */,
 				D74DEBD21D420A5700C93965 /* BaseTableViewController.m in Sources */,
 				D74DEBEF1D42127100C93965 /* HttpTool.m in Sources */,
+				D743B63A1D47146B00BFFE34 /* MSAlertController.m in Sources */,
+				D743B63F1D47166600BFFE34 /* CWStatusBarNotification.m in Sources */,
 				D72444DA1D45EA4100022255 /* AssetsLibraryD.m in Sources */,
 				D72444DE1D45EA4100022255 /* ParallAxTableViewCells.m in Sources */,
 				D72444F11D46126500022255 /* BaseNavViewController.m in Sources */,
