@@ -44,7 +44,7 @@
 -(void)loadTableView{
     
     self.automaticallyAdjustsScrollViewInsets = false;
-    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, self.view.width, self.view.height - 44) style:UITableViewStylePlain];
+    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.width, self.view.height - 44) style:UITableViewStylePlain];
     self.tableView.backgroundColor = [UIColor clearColor];
 //    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.autoresizesSubviews = false;

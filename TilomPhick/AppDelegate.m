@@ -7,12 +7,12 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 #import "RDVTabBarController.h"
 #import "RDVTabBarItem.h"
-#import "ViewController.h"
 #import "HomeVC.h"
 #import "TestVC.h"
+#import "CupVC.h"
+#import "MySelfVC.h"
 #import "BaseTabBarViewController.h"
 #import "BaseNavViewController.h"
 @interface AppDelegate ()<RDVTabBarControllerDelegate>
@@ -27,7 +27,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self setupViewControllers];
-    [self.window setRootViewController:self.viewController];
+//    [self.window setRootViewController:self.viewController];
+    [self setRoot];
     [self.window makeKeyAndVisible];
     
     [self customizeInterface];
@@ -38,34 +39,32 @@
 
 - (void)setupViewControllers {
     
-    TestVC *school = [[TestVC alloc]init];
+    TestVC *testVC = [[TestVC alloc]init];
     
-    HomeVC *child  = [[HomeVC alloc]init];
+    HomeVC *homeVC  = [[HomeVC alloc]init];
     
-    ViewController *courseList = [[ViewController alloc]init];
+    CupVC *cupVC = [[CupVC alloc]init];
     
-    ViewController *about = [[ViewController alloc]init];
-  
+    MySelfVC *mySelfVC = [[MySelfVC alloc]init];
     
-
-    
-    UIViewController *firstNavigationController = [[BaseNavViewController alloc]
-                                                   initWithRootViewController:school];
-    
-    
-    UIViewController *secondNavigationController = [[BaseNavViewController alloc]
-                                                    initWithRootViewController:child];
-    
-    
-    UIViewController *thirdNavigationController = [[BaseNavViewController alloc]
-                                                   initWithRootViewController:courseList];
-    
-    UIViewController *fourNavigationController = [[BaseNavViewController alloc]
-                                                   initWithRootViewController:about];
+//    UIViewController *firstNavigationController = [[BaseNavViewController alloc]
+//                                                   initWithRootViewController:testVC];
+//    
+//    
+//    UIViewController *secondNavigationController = [[BaseNavViewController alloc]
+//                                                    initWithRootViewController:homeVC];
+//    
+//    
+//    UIViewController *thirdNavigationController = [[BaseNavViewController alloc]
+//                                                   initWithRootViewController:cupVC];
+//    
+//    UIViewController *fourNavigationController = [[BaseNavViewController alloc]
+//                                                   initWithRootViewController:mySelfVC];
     
     RDVTabBarController *tabBarController = [[RDVTabBarController alloc] init];
-    [tabBarController setViewControllers:@[firstNavigationController, secondNavigationController,
-                                           thirdNavigationController,fourNavigationController]];
+//    [tabBarController setViewControllers:@[firstNavigationController, secondNavigationController,
+//                                           thirdNavigationController,fourNavigationController]];
+    [tabBarController setViewControllers:@[testVC, homeVC, cupVC, mySelfVC]];
     tabBarController.delegate = self;
     self.viewController = tabBarController;
     
@@ -94,26 +93,23 @@
 {
     if ([viewController isKindOfClass:[TestVC class]])
     {
-        tabBarController.navigationItem.title = @"1";
+        tabBarController.navigationItem.title = @"Test";
     }
     if ([viewController isKindOfClass:[HomeVC class]])
     {
-        tabBarController.navigationItem.title = @"2";
+        tabBarController.navigationItem.title = @"Home";
     }
-    if ([viewController isKindOfClass:[ViewController class]])
+    if ([viewController isKindOfClass:[CupVC class]])
     {
-        tabBarController.navigationItem.title = @"3";
+        tabBarController.navigationItem.title = @"Cup";
     }
-    if ([viewController isKindOfClass:[ViewController class]])
+    if ([viewController isKindOfClass:[MySelfVC class]])
     {
-        tabBarController.navigationItem.title = @"4";
-    }
-    if ([viewController isKindOfClass:[ViewController class]])
-    {
-        tabBarController.navigationItem.title = @"5";
+        tabBarController.navigationItem.title = @"Myself";
     }
 }
- - (void)customizeInterface {
+
+- (void)customizeInterface {
      
     UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
     
@@ -148,19 +144,16 @@
 
 - (void)setTabbarController
 {
-    TestVC *school = [[TestVC alloc]init];
+    TestVC *test = [[TestVC alloc]init];
     
-    HomeVC *child  = [[HomeVC alloc]init];
+    HomeVC *home  = [[HomeVC alloc]init];
     
+    CupVC *cup = [[CupVC alloc]init];
     
-    ViewController *edu = [[ViewController alloc]init];
-    
-    ViewController *courseList = [[ViewController alloc]init];
-    
-    ViewController *about = [[ViewController alloc]init];
+    MySelfVC *myself = [[MySelfVC alloc]init];
     
     BaseTabBarViewController *tabBarController = [[BaseTabBarViewController alloc] init];
-    [tabBarController setViewControllers:@[school,edu,child,courseList,about]];
+    [tabBarController setViewControllers:@[test,home,cup,myself]];
     self.viewController = tabBarController;
     tabBarController.delegate = self;
     [self customizeTabBarForController:tabBarController];
@@ -199,7 +192,7 @@
      *  自个加的
      */
     if ([tabBarController.viewControllers[0] isKindOfClass:[TestVC class]]){
-        tabBarController.navigationItem.title = @"1";
+        tabBarController.navigationItem.title = @"Test";
     }
     for (RDVTabBarItem *item in [[tabBarController tabBar] items])
     {
@@ -219,7 +212,7 @@
         [item setUnselectedTitleAttributes:unseleAtrr];
         [item setSelectedTitleAttributes:seleAtrr];
         
-        [item setTitle:@[@"1",@"2",@"3",@"4",@"5"][index]];
+        [item setTitle:@[@"Test",@"Home",@"Cup",@"Myself"][index]];
         index++;
     }
 }
@@ -267,6 +260,8 @@
 //#import "TestVC.h"
 //#import "BaseTabBarViewController.h"
 #import "BaseNavViewController.h"
+#import "CupVC.h"
+#import "MySelfVC.h"
 //@interface AppDelegate ()<RDVTabBarControllerDelegate>
 //
 //@end
