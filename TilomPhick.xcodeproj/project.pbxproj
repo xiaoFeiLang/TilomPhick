@@ -20,6 +20,15 @@
 		D72444EB1D45FF4600022255 /* SecondTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444EA1D45FF4600022255 /* SecondTestVC.m */; };
 		D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444ED1D46071500022255 /* BaseTabBarViewController.m */; };
 		D72444F11D46126500022255 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444F01D46126500022255 /* BaseNavViewController.m */; };
+		D730B42F1D48D03D008A3F46 /* JFHomeMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D730B42E1D48D03D008A3F46 /* JFHomeMenuCell.m */; };
+		D730B4321D48D050008A3F46 /* JFMenuBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = D730B4311D48D050008A3F46 /* JFMenuBtnView.m */; };
+		D730B43A1D48D30D008A3F46 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = D730B4341D48D30D008A3F46 /* city.plist */; };
+		D730B43B1D48D30D008A3F46 /* citydata.plist in Resources */ = {isa = PBXBuildFile; fileRef = D730B4351D48D30D008A3F46 /* citydata.plist */; };
+		D730B43C1D48D30D008A3F46 /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = D730B4361D48D30D008A3F46 /* citydict.plist */; };
+		D730B43D1D48D30D008A3F46 /* menuData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D730B4371D48D30D008A3F46 /* menuData.plist */; };
+		D730B43E1D48D30D008A3F46 /* MineInformationData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D730B4381D48D30D008A3F46 /* MineInformationData.plist */; };
+		D730B43F1D48D30D008A3F46 /* MoreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D730B4391D48D30D008A3F46 /* MoreData.plist */; };
+		D730B4421D48D33E008A3F46 /* GetPlistArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D730B4411D48D33E008A3F46 /* GetPlistArray.m */; };
 		D743B63A1D47146B00BFFE34 /* MSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6371D47146B00BFFE34 /* MSAlertController.m */; };
 		D743B63B1D47146B00BFFE34 /* MSAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D743B6381D47146B00BFFE34 /* MSAlertController.xib */; };
 		D743B63C1D47146B00BFFE34 /* MSAlertController_ActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D743B6391D47146B00BFFE34 /* MSAlertController_ActionSheet.xib */; };
@@ -33,6 +42,7 @@
 		D743B6611D47558600BFFE34 /* CustomerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6601D47558600BFFE34 /* CustomerButton.m */; };
 		D743B6641D475C9B00BFFE34 /* UIButton+MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6631D475C9B00BFFE34 /* UIButton+MyButton.m */; };
 		D743B6671D4761CF00BFFE34 /* EqualWidthButtonCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6661D4761CF00BFFE34 /* EqualWidthButtonCell2.m */; };
+		D743B66A1D476A3400BFFE34 /* QlCreateAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6691D476A3400BFFE34 /* QlCreateAlertView.m */; };
 		D74DEB981D4201EC00C93965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB971D4201EC00C93965 /* main.m */; };
 		D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEB9A1D4201EC00C93965 /* AppDelegate.m */; };
 		D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74DEBA21D4201EC00C93965 /* Assets.xcassets */; };
@@ -92,6 +102,18 @@
 		D72444ED1D46071500022255 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
 		D72444EF1D46126500022255 /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
 		D72444F01D46126500022255 /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		D730B42D1D48D03D008A3F46 /* JFHomeMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHomeMenuCell.h; sourceTree = "<group>"; };
+		D730B42E1D48D03D008A3F46 /* JFHomeMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHomeMenuCell.m; sourceTree = "<group>"; };
+		D730B4301D48D050008A3F46 /* JFMenuBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMenuBtnView.h; sourceTree = "<group>"; };
+		D730B4311D48D050008A3F46 /* JFMenuBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMenuBtnView.m; sourceTree = "<group>"; };
+		D730B4341D48D30D008A3F46 /* city.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = city.plist; sourceTree = "<group>"; };
+		D730B4351D48D30D008A3F46 /* citydata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydata.plist; sourceTree = "<group>"; };
+		D730B4361D48D30D008A3F46 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		D730B4371D48D30D008A3F46 /* menuData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menuData.plist; sourceTree = "<group>"; };
+		D730B4381D48D30D008A3F46 /* MineInformationData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MineInformationData.plist; sourceTree = "<group>"; };
+		D730B4391D48D30D008A3F46 /* MoreData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoreData.plist; sourceTree = "<group>"; };
+		D730B4401D48D33E008A3F46 /* GetPlistArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPlistArray.h; sourceTree = "<group>"; };
+		D730B4411D48D33E008A3F46 /* GetPlistArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPlistArray.m; sourceTree = "<group>"; };
 		D743B6361D47146B00BFFE34 /* MSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAlertController.h; sourceTree = "<group>"; };
 		D743B6371D47146B00BFFE34 /* MSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAlertController.m; sourceTree = "<group>"; };
 		D743B6381D47146B00BFFE34 /* MSAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAlertController.xib; sourceTree = "<group>"; };
@@ -115,6 +137,8 @@
 		D743B6631D475C9B00BFFE34 /* UIButton+MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MyButton.m"; sourceTree = "<group>"; };
 		D743B6651D4761CF00BFFE34 /* EqualWidthButtonCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualWidthButtonCell2.h; sourceTree = "<group>"; };
 		D743B6661D4761CF00BFFE34 /* EqualWidthButtonCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualWidthButtonCell2.m; sourceTree = "<group>"; };
+		D743B6681D476A3400BFFE34 /* QlCreateAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QlCreateAlertView.h; sourceTree = "<group>"; };
+		D743B6691D476A3400BFFE34 /* QlCreateAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QlCreateAlertView.m; sourceTree = "<group>"; };
 		D74DEB931D4201EC00C93965 /* TilomPhick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilomPhick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74DEB971D4201EC00C93965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D74DEB991D4201EC00C93965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,6 +212,10 @@
 				D72444BD1D45B74D00022255 /* VTGeneralTool.m */,
 				D743B63D1D47166600BFFE34 /* CWStatusBarNotification.h */,
 				D743B63E1D47166600BFFE34 /* CWStatusBarNotification.m */,
+				D743B6681D476A3400BFFE34 /* QlCreateAlertView.h */,
+				D743B6691D476A3400BFFE34 /* QlCreateAlertView.m */,
+				D730B4401D48D33E008A3F46 /* GetPlistArray.h */,
+				D730B4411D48D33E008A3F46 /* GetPlistArray.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -230,6 +258,19 @@
 				D72444EA1D45FF4600022255 /* SecondTestVC.m */,
 			);
 			path = TestVC;
+			sourceTree = "<group>";
+		};
+		D730B4331D48D2FE008A3F46 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				D730B4341D48D30D008A3F46 /* city.plist */,
+				D730B4351D48D30D008A3F46 /* citydata.plist */,
+				D730B4361D48D30D008A3F46 /* citydict.plist */,
+				D730B4371D48D30D008A3F46 /* menuData.plist */,
+				D730B4381D48D30D008A3F46 /* MineInformationData.plist */,
+				D730B4391D48D30D008A3F46 /* MoreData.plist */,
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 		D743B6351D47146B00BFFE34 /* MSAlertController */ = {
@@ -285,6 +326,10 @@
 				D743B65A1D47516800BFFE34 /* EqualWidthButtonCell.xib */,
 				D743B6651D4761CF00BFFE34 /* EqualWidthButtonCell2.h */,
 				D743B6661D4761CF00BFFE34 /* EqualWidthButtonCell2.m */,
+				D730B42D1D48D03D008A3F46 /* JFHomeMenuCell.h */,
+				D730B42E1D48D03D008A3F46 /* JFHomeMenuCell.m */,
+				D730B4301D48D050008A3F46 /* JFMenuBtnView.h */,
+				D730B4311D48D050008A3F46 /* JFMenuBtnView.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -339,11 +384,11 @@
 				D74DEBCB1D42063E00C93965 /* Vender */,
 				D74DEB991D4201EC00C93965 /* AppDelegate.h */,
 				D74DEB9A1D4201EC00C93965 /* AppDelegate.m */,
+				D74DEBCA1D4204C000C93965 /* PrefixHeader.pch */,
 				D74DEBA21D4201EC00C93965 /* Assets.xcassets */,
 				D74DEBA41D4201EC00C93965 /* LaunchScreen.storyboard */,
 				D74DEBA71D4201EC00C93965 /* Info.plist */,
 				D74DEB961D4201EC00C93965 /* Supporting Files */,
-				D74DEBCA1D4204C000C93965 /* PrefixHeader.pch */,
 			);
 			path = TilomPhick;
 			sourceTree = "<group>";
@@ -426,6 +471,7 @@
 		D74DEBE31D42125F00C93965 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				D730B4331D48D2FE008A3F46 /* DataBase */,
 				D72444BB1D45B74700022255 /* Tools */,
 				D74DEBE41D42125F00C93965 /* Category */,
 				D74DEBEA1D42125F00C93965 /* Network */,
@@ -587,9 +633,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D74DEBA61D4201EC00C93965 /* LaunchScreen.storyboard in Resources */,
+				D730B43C1D48D30D008A3F46 /* citydict.plist in Resources */,
 				D74DEBA31D4201EC00C93965 /* Assets.xcassets in Resources */,
+				D730B43E1D48D30D008A3F46 /* MineInformationData.plist in Resources */,
+				D730B43A1D48D30D008A3F46 /* city.plist in Resources */,
+				D730B43F1D48D30D008A3F46 /* MoreData.plist in Resources */,
+				D730B43B1D48D30D008A3F46 /* citydata.plist in Resources */,
 				D743B65C1D47516800BFFE34 /* EqualWidthButtonCell.xib in Resources */,
 				D743B63B1D47146B00BFFE34 /* MSAlertController.xib in Resources */,
+				D730B43D1D48D30D008A3F46 /* menuData.plist in Resources */,
 				D743B63C1D47146B00BFFE34 /* MSAlertController_ActionSheet.xib in Resources */,
 				D72444DD1D45EA4100022255 /* ImageResources.bundle in Resources */,
 			);
@@ -665,6 +717,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D743B65B1D47516800BFFE34 /* EqualWidthButtonCell.m in Sources */,
+				D743B66A1D476A3400BFFE34 /* QlCreateAlertView.m in Sources */,
 				D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */,
 				D74DEBCF1D420A2800C93965 /* BaseViewController.m in Sources */,
 				D72444E01D45EA4100022255 /* SideScrollingLayout.m in Sources */,
@@ -674,11 +727,13 @@
 				D72444EB1D45FF4600022255 /* SecondTestVC.m in Sources */,
 				D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */,
 				D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */,
+				D730B4321D48D050008A3F46 /* JFMenuBtnView.m in Sources */,
 				D743B6511D474F4E00BFFE34 /* BaseTableViewCell.m in Sources */,
 				D743B6641D475C9B00BFFE34 /* UIButton+MyButton.m in Sources */,
 				D743B6671D4761CF00BFFE34 /* EqualWidthButtonCell2.m in Sources */,
 				D743B64D1D4744C800BFFE34 /* LXNetworking.m in Sources */,
 				D74DEBEB1D42125F00C93965 /* UIView+MessagePropagation.m in Sources */,
+				D730B4421D48D33E008A3F46 /* GetPlistArray.m in Sources */,
 				D72444BE1D45B74D00022255 /* VTGeneralTool.m in Sources */,
 				D72444DB1D45EA4100022255 /* HCollectionViewCell.m in Sources */,
 				D74DEBD71D420ADF00C93965 /* HomeVC.m in Sources */,
@@ -688,6 +743,7 @@
 				D74DEB981D4201EC00C93965 /* main.m in Sources */,
 				D74DEBD21D420A5700C93965 /* BaseTableViewController.m in Sources */,
 				D74DEBEF1D42127100C93965 /* HttpTool.m in Sources */,
+				D730B42F1D48D03D008A3F46 /* JFHomeMenuCell.m in Sources */,
 				D743B63A1D47146B00BFFE34 /* MSAlertController.m in Sources */,
 				D743B63F1D47166600BFFE34 /* CWStatusBarNotification.m in Sources */,
 				D72444DA1D45EA4100022255 /* AssetsLibraryD.m in Sources */,
