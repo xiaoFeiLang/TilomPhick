@@ -29,6 +29,15 @@
 		D730B43E1D48D30D008A3F46 /* MineInformationData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D730B4381D48D30D008A3F46 /* MineInformationData.plist */; };
 		D730B43F1D48D30D008A3F46 /* MoreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D730B4391D48D30D008A3F46 /* MoreData.plist */; };
 		D730B4421D48D33E008A3F46 /* GetPlistArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D730B4411D48D33E008A3F46 /* GetPlistArray.m */; };
+		D740BEA31D531CE900A6F50B /* HZYLIistTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D740BE9E1D531CE900A6F50B /* HZYLIistTabBarViewController.m */; };
+		D740BEA41D531CE900A6F50B /* HZYResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D740BE9F1D531CE900A6F50B /* HZYResource.bundle */; };
+		D740BEA51D531CE900A6F50B /* HZYListTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D740BEA21D531CE900A6F50B /* HZYListTabBar.m */; };
+		D740BEAA1D531D4100A6F50B /* HZYHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D740BEA91D531D4100A6F50B /* HZYHttpRequest.m */; };
+		D740BEB61D531D6300A6F50B /* HZYNewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D740BEAE1D531D6300A6F50B /* HZYNewsListViewController.m */; };
+		D740BEB71D531D6300A6F50B /* HZYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D740BEB11D531D6300A6F50B /* HZYNewsModel.m */; };
+		D740BEB81D531D6300A6F50B /* HZYNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D740BEB41D531D6300A6F50B /* HZYNewsCell.m */; };
+		D740BEB91D531D6300A6F50B /* HZYNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D740BEB51D531D6300A6F50B /* HZYNewsCell.xib */; };
+		D740BEBB1D53226900A6F50B /* NewsUrl.plist in Resources */ = {isa = PBXBuildFile; fileRef = D740BEBA1D53226900A6F50B /* NewsUrl.plist */; };
 		D743B63A1D47146B00BFFE34 /* MSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = D743B6371D47146B00BFFE34 /* MSAlertController.m */; };
 		D743B63B1D47146B00BFFE34 /* MSAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D743B6381D47146B00BFFE34 /* MSAlertController.xib */; };
 		D743B63C1D47146B00BFFE34 /* MSAlertController_ActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D743B6391D47146B00BFFE34 /* MSAlertController_ActionSheet.xib */; };
@@ -114,6 +123,22 @@
 		D730B4391D48D30D008A3F46 /* MoreData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoreData.plist; sourceTree = "<group>"; };
 		D730B4401D48D33E008A3F46 /* GetPlistArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPlistArray.h; sourceTree = "<group>"; };
 		D730B4411D48D33E008A3F46 /* GetPlistArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPlistArray.m; sourceTree = "<group>"; };
+		D740BE9D1D531CE900A6F50B /* HZYLIistTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYLIistTabBarViewController.h; sourceTree = "<group>"; };
+		D740BE9E1D531CE900A6F50B /* HZYLIistTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYLIistTabBarViewController.m; sourceTree = "<group>"; };
+		D740BE9F1D531CE900A6F50B /* HZYResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HZYResource.bundle; sourceTree = "<group>"; };
+		D740BEA11D531CE900A6F50B /* HZYListTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYListTabBar.h; sourceTree = "<group>"; };
+		D740BEA21D531CE900A6F50B /* HZYListTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYListTabBar.m; sourceTree = "<group>"; };
+		D740BEA71D531D4100A6F50B /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		D740BEA81D531D4100A6F50B /* HZYHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYHttpRequest.h; sourceTree = "<group>"; };
+		D740BEA91D531D4100A6F50B /* HZYHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYHttpRequest.m; sourceTree = "<group>"; };
+		D740BEAD1D531D6300A6F50B /* HZYNewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYNewsListViewController.h; sourceTree = "<group>"; };
+		D740BEAE1D531D6300A6F50B /* HZYNewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYNewsListViewController.m; sourceTree = "<group>"; };
+		D740BEB01D531D6300A6F50B /* HZYNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYNewsModel.h; sourceTree = "<group>"; };
+		D740BEB11D531D6300A6F50B /* HZYNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYNewsModel.m; sourceTree = "<group>"; };
+		D740BEB31D531D6300A6F50B /* HZYNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZYNewsCell.h; sourceTree = "<group>"; };
+		D740BEB41D531D6300A6F50B /* HZYNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZYNewsCell.m; sourceTree = "<group>"; };
+		D740BEB51D531D6300A6F50B /* HZYNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZYNewsCell.xib; sourceTree = "<group>"; };
+		D740BEBA1D53226900A6F50B /* NewsUrl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsUrl.plist; sourceTree = "<group>"; };
 		D743B6361D47146B00BFFE34 /* MSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAlertController.h; sourceTree = "<group>"; };
 		D743B6371D47146B00BFFE34 /* MSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAlertController.m; sourceTree = "<group>"; };
 		D743B6381D47146B00BFFE34 /* MSAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAlertController.xib; sourceTree = "<group>"; };
@@ -263,6 +288,7 @@
 		D730B4331D48D2FE008A3F46 /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				D740BEBA1D53226900A6F50B /* NewsUrl.plist */,
 				D730B4341D48D30D008A3F46 /* city.plist */,
 				D730B4351D48D30D008A3F46 /* citydata.plist */,
 				D730B4361D48D30D008A3F46 /* citydict.plist */,
@@ -271,6 +297,92 @@
 				D730B4391D48D30D008A3F46 /* MoreData.plist */,
 			);
 			path = DataBase;
+			sourceTree = "<group>";
+		};
+		D740BE9A1D531CD500A6F50B /* Scroller */ = {
+			isa = PBXGroup;
+			children = (
+				D740BE9B1D531CE900A6F50B /* HZYListTabBar */,
+			);
+			path = Scroller;
+			sourceTree = "<group>";
+		};
+		D740BE9B1D531CE900A6F50B /* HZYListTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D740BEAB1D531D6300A6F50B /* News */,
+				D740BEA61D531D4100A6F50B /* Common */,
+				D740BE9C1D531CE900A6F50B /* Controller */,
+				D740BE9F1D531CE900A6F50B /* HZYResource.bundle */,
+				D740BEA01D531CE900A6F50B /* View */,
+			);
+			path = HZYListTabBar;
+			sourceTree = "<group>";
+		};
+		D740BE9C1D531CE900A6F50B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D740BE9D1D531CE900A6F50B /* HZYLIistTabBarViewController.h */,
+				D740BE9E1D531CE900A6F50B /* HZYLIistTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D740BEA01D531CE900A6F50B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D740BEA11D531CE900A6F50B /* HZYListTabBar.h */,
+				D740BEA21D531CE900A6F50B /* HZYListTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D740BEA61D531D4100A6F50B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D740BEA71D531D4100A6F50B /* Common.h */,
+				D740BEA81D531D4100A6F50B /* HZYHttpRequest.h */,
+				D740BEA91D531D4100A6F50B /* HZYHttpRequest.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D740BEAB1D531D6300A6F50B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				D740BEAC1D531D6300A6F50B /* Controller */,
+				D740BEAF1D531D6300A6F50B /* Model */,
+				D740BEB21D531D6300A6F50B /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		D740BEAC1D531D6300A6F50B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D740BEAD1D531D6300A6F50B /* HZYNewsListViewController.h */,
+				D740BEAE1D531D6300A6F50B /* HZYNewsListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D740BEAF1D531D6300A6F50B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D740BEB01D531D6300A6F50B /* HZYNewsModel.h */,
+				D740BEB11D531D6300A6F50B /* HZYNewsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D740BEB21D531D6300A6F50B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D740BEB31D531D6300A6F50B /* HZYNewsCell.h */,
+				D740BEB41D531D6300A6F50B /* HZYNewsCell.m */,
+				D740BEB51D531D6300A6F50B /* HZYNewsCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D743B6351D47146B00BFFE34 /* MSAlertController */ = {
@@ -296,6 +408,7 @@
 		D743B6421D4727AE00BFFE34 /* CupVC */ = {
 			isa = PBXGroup;
 			children = (
+				D740BE9A1D531CD500A6F50B /* Scroller */,
 				D743B6461D4727CE00BFFE34 /* CupVC.h */,
 				D743B6471D4727CE00BFFE34 /* CupVC.m */,
 			);
@@ -638,9 +751,12 @@
 				D730B43E1D48D30D008A3F46 /* MineInformationData.plist in Resources */,
 				D730B43A1D48D30D008A3F46 /* city.plist in Resources */,
 				D730B43F1D48D30D008A3F46 /* MoreData.plist in Resources */,
+				D740BEA41D531CE900A6F50B /* HZYResource.bundle in Resources */,
 				D730B43B1D48D30D008A3F46 /* citydata.plist in Resources */,
 				D743B65C1D47516800BFFE34 /* EqualWidthButtonCell.xib in Resources */,
+				D740BEBB1D53226900A6F50B /* NewsUrl.plist in Resources */,
 				D743B63B1D47146B00BFFE34 /* MSAlertController.xib in Resources */,
+				D740BEB91D531D6300A6F50B /* HZYNewsCell.xib in Resources */,
 				D730B43D1D48D30D008A3F46 /* menuData.plist in Resources */,
 				D743B63C1D47146B00BFFE34 /* MSAlertController_ActionSheet.xib in Resources */,
 				D72444DD1D45EA4100022255 /* ImageResources.bundle in Resources */,
@@ -717,6 +833,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D743B65B1D47516800BFFE34 /* EqualWidthButtonCell.m in Sources */,
+				D740BEAA1D531D4100A6F50B /* HZYHttpRequest.m in Sources */,
+				D740BEA51D531CE900A6F50B /* HZYListTabBar.m in Sources */,
 				D743B66A1D476A3400BFFE34 /* QlCreateAlertView.m in Sources */,
 				D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */,
 				D74DEBCF1D420A2800C93965 /* BaseViewController.m in Sources */,
@@ -727,6 +845,7 @@
 				D72444EB1D45FF4600022255 /* SecondTestVC.m in Sources */,
 				D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */,
 				D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */,
+				D740BEB61D531D6300A6F50B /* HZYNewsListViewController.m in Sources */,
 				D730B4321D48D050008A3F46 /* JFMenuBtnView.m in Sources */,
 				D743B6511D474F4E00BFFE34 /* BaseTableViewCell.m in Sources */,
 				D743B6641D475C9B00BFFE34 /* UIButton+MyButton.m in Sources */,
@@ -745,9 +864,12 @@
 				D74DEBEF1D42127100C93965 /* HttpTool.m in Sources */,
 				D730B42F1D48D03D008A3F46 /* JFHomeMenuCell.m in Sources */,
 				D743B63A1D47146B00BFFE34 /* MSAlertController.m in Sources */,
+				D740BEB81D531D6300A6F50B /* HZYNewsCell.m in Sources */,
 				D743B63F1D47166600BFFE34 /* CWStatusBarNotification.m in Sources */,
 				D72444DA1D45EA4100022255 /* AssetsLibraryD.m in Sources */,
 				D72444DE1D45EA4100022255 /* ParallAxTableViewCells.m in Sources */,
+				D740BEB71D531D6300A6F50B /* HZYNewsModel.m in Sources */,
+				D740BEA31D531CE900A6F50B /* HZYLIistTabBarViewController.m in Sources */,
 				D72444F11D46126500022255 /* BaseNavViewController.m in Sources */,
 				D743B6481D4727CE00BFFE34 /* CupVC.m in Sources */,
 			);

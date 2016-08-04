@@ -8,6 +8,7 @@
 
 #import "CupVC.h"
 #import "HomeVC.h"
+#import "HZYLIistTabBarViewController.h"
 @interface CupVC ()
 {
     NSArray *items;
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    items = [@"Lunbo Bravo Charlie Delta Echo Foxtrot Golf Hotel India Juliet Kilo Lima Mike November Oscar Papa Romeo Quebec Sierra Tango Uniform Victor Whiskey Xray Yankee Zulu" componentsSeparatedByString:@" "];
+    items = [@"Lunbo HZYLIistTabBarViewController(新闻) Charlie Delta Echo Foxtrot Golf Hotel India Juliet Kilo Lima Mike November Oscar Papa Romeo Quebec Sierra Tango Uniform Victor Whiskey Xray Yankee Zulu" componentsSeparatedByString:@" "];
     stateDictionary = [NSMutableDictionary dictionary];
     
     
@@ -34,7 +35,7 @@
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -84,10 +85,24 @@
     //    stateDictionary[indexPath] = @(isChecked);
     //    cell.accessoryType = isChecked ? UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
     
-    
-    HomeVC *vc = [[HomeVC alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-    
+    switch (indexPath.row) {
+        case 0:{
+        
+            HomeVC *vc = [[HomeVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        }
+            break;
+        case 1:{
+//            新闻切换
+            HZYLIistTabBarViewController *vc = [[HZYLIistTabBarViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
     
 }
 @end
