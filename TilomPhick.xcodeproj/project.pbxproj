@@ -65,6 +65,8 @@
 		D74DEBEC1D42125F00C93965 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBE91D42125F00C93965 /* ViewUtils.m */; };
 		D74DEBEF1D42127100C93965 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBEE1D42127100C93965 /* HttpTool.m */; };
 		D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBF21D4214B600C93965 /* HomeModel.m */; };
+		D7675BB31D587AD800E8900E /* CustomerTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7675BB21D587AD800E8900E /* CustomerTableVC.m */; };
+		D7675BB81D58865100E8900E /* MyCustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7675BB71D58865100E8900E /* MyCustomerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +194,10 @@
 		D74DEBEE1D42127100C93965 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		D74DEBF11D4214B600C93965 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		D74DEBF21D4214B600C93965 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		D7675BB11D587AD800E8900E /* CustomerTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableVC.h; sourceTree = "<group>"; };
+		D7675BB21D587AD800E8900E /* CustomerTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableVC.m; sourceTree = "<group>"; };
+		D7675BB61D58865100E8900E /* MyCustomerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomerView.h; sourceTree = "<group>"; };
+		D7675BB71D58865100E8900E /* MyCustomerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomerView.m; sourceTree = "<group>"; };
 		E322DC8969DD21A11FD256AE /* libPods-TilomPhick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TilomPhick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -408,6 +414,7 @@
 		D743B6421D4727AE00BFFE34 /* CupVC */ = {
 			isa = PBXGroup;
 			children = (
+				D7675BB01D587ABF00E8900E /* Customer */,
 				D740BE9A1D531CD500A6F50B /* Scroller */,
 				D743B6461D4727CE00BFFE34 /* CupVC.h */,
 				D743B6471D4727CE00BFFE34 /* CupVC.m */,
@@ -628,6 +635,25 @@
 				D74DEBF21D4214B600C93965 /* HomeModel.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D7675BB01D587ABF00E8900E /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				D7675BB51D5885E900E8900E /* View */,
+				D7675BB11D587AD800E8900E /* CustomerTableVC.h */,
+				D7675BB21D587AD800E8900E /* CustomerTableVC.m */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		D7675BB51D5885E900E8900E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7675BB61D58865100E8900E /* MyCustomerView.h */,
+				D7675BB71D58865100E8900E /* MyCustomerView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FC52F95430C3AC157BF3BFA8 /* Pods */ = {
@@ -870,7 +896,9 @@
 				D72444DE1D45EA4100022255 /* ParallAxTableViewCells.m in Sources */,
 				D740BEB71D531D6300A6F50B /* HZYNewsModel.m in Sources */,
 				D740BEA31D531CE900A6F50B /* HZYLIistTabBarViewController.m in Sources */,
+				D7675BB81D58865100E8900E /* MyCustomerView.m in Sources */,
 				D72444F11D46126500022255 /* BaseNavViewController.m in Sources */,
+				D7675BB31D587AD800E8900E /* CustomerTableVC.m in Sources */,
 				D743B6481D4727CE00BFFE34 /* CupVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

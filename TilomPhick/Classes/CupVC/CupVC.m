@@ -9,6 +9,7 @@
 #import "CupVC.h"
 #import "HomeVC.h"
 #import "HZYLIistTabBarViewController.h"
+#import "CustomerTableVC.h"
 @interface CupVC ()
 {
     NSArray *items;
@@ -22,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    items = [@"Lunbo HZYLIistTabBarViewController(新闻) Charlie Delta Echo Foxtrot Golf Hotel India Juliet Kilo Lima Mike November Oscar Papa Romeo Quebec Sierra Tango Uniform Victor Whiskey Xray Yankee Zulu" componentsSeparatedByString:@" "];
+    items = [@"Lunbo HZYLIistTabBarViewController(新闻) CustomerTableVC Delta Echo Foxtrot Golf Hotel India Juliet Kilo Lima Mike November Oscar Papa Romeo Quebec Sierra Tango Uniform Victor Whiskey Xray Yankee Zulu" componentsSeparatedByString:@" "];
     stateDictionary = [NSMutableDictionary dictionary];
     
     
@@ -99,7 +100,12 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-            
+        case 2:{
+//            自定义弹出的tableview
+            CustomerTableVC *vc = [[CustomerTableVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }
