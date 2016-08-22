@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D49DED43681689C364FC1803 /* libPods-TilomPhick.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E322DC8969DD21A11FD256AE /* libPods-TilomPhick.a */; };
+		D7149A0E1D63028C00C1D1FD /* PopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7149A0D1D63028C00C1D1FD /* PopVC.m */; };
 		D72444BE1D45B74D00022255 /* VTGeneralTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444BD1D45B74D00022255 /* VTGeneralTool.m */; };
 		D72444DA1D45EA4100022255 /* AssetsLibraryD.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444CE1D45EA4100022255 /* AssetsLibraryD.m */; };
 		D72444DB1D45EA4100022255 /* HCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D72444D01D45EA4100022255 /* HCollectionViewCell.m */; };
@@ -67,6 +68,11 @@
 		D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DEBF21D4214B600C93965 /* HomeModel.m */; };
 		D7675BB31D587AD800E8900E /* CustomerTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7675BB21D587AD800E8900E /* CustomerTableVC.m */; };
 		D7675BB81D58865100E8900E /* MyCustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7675BB71D58865100E8900E /* MyCustomerView.m */; };
+		D798BF781D59692300DDB2FC /* MyCustomerPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BF771D59692300DDB2FC /* MyCustomerPickerView.m */; };
+		D798BF7B1D5987AD00DDB2FC /* MyCustomerBottomPockerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BF7A1D5987AD00DDB2FC /* MyCustomerBottomPockerView.m */; };
+		D798BF7E1D59AADB00DDB2FC /* MyCustomerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BF7D1D59AADB00DDB2FC /* MyCustomerTextView.m */; };
+		D798BF811D59AF4600DDB2FC /* MyCustomerEditTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BF801D59AF4600DDB2FC /* MyCustomerEditTextView.m */; };
+		D798BF851D59D42400DDB2FC /* MyTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D798BF841D59D42400DDB2FC /* MyTextVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +95,8 @@
 /* Begin PBXFileReference section */
 		22A60EA219EC71D22F7B945D /* Pods-TilomPhick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilomPhick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TilomPhick/Pods-TilomPhick.debug.xcconfig"; sourceTree = "<group>"; };
 		77804DC6148B1FCC04AF2AD9 /* Pods-TilomPhick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilomPhick.release.xcconfig"; path = "Pods/Target Support Files/Pods-TilomPhick/Pods-TilomPhick.release.xcconfig"; sourceTree = "<group>"; };
+		D7149A0C1D63028C00C1D1FD /* PopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopVC.h; sourceTree = "<group>"; };
+		D7149A0D1D63028C00C1D1FD /* PopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopVC.m; sourceTree = "<group>"; };
 		D72444BC1D45B74D00022255 /* VTGeneralTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTGeneralTool.h; sourceTree = "<group>"; };
 		D72444BD1D45B74D00022255 /* VTGeneralTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTGeneralTool.m; sourceTree = "<group>"; };
 		D72444BF1D45B81700022255 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
@@ -198,6 +206,16 @@
 		D7675BB21D587AD800E8900E /* CustomerTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableVC.m; sourceTree = "<group>"; };
 		D7675BB61D58865100E8900E /* MyCustomerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomerView.h; sourceTree = "<group>"; };
 		D7675BB71D58865100E8900E /* MyCustomerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomerView.m; sourceTree = "<group>"; };
+		D798BF761D59692300DDB2FC /* MyCustomerPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomerPickerView.h; sourceTree = "<group>"; };
+		D798BF771D59692300DDB2FC /* MyCustomerPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomerPickerView.m; sourceTree = "<group>"; };
+		D798BF791D5987AD00DDB2FC /* MyCustomerBottomPockerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomerBottomPockerView.h; sourceTree = "<group>"; };
+		D798BF7A1D5987AD00DDB2FC /* MyCustomerBottomPockerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomerBottomPockerView.m; sourceTree = "<group>"; };
+		D798BF7C1D59AADB00DDB2FC /* MyCustomerTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomerTextView.h; sourceTree = "<group>"; };
+		D798BF7D1D59AADB00DDB2FC /* MyCustomerTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomerTextView.m; sourceTree = "<group>"; };
+		D798BF7F1D59AF4600DDB2FC /* MyCustomerEditTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomerEditTextView.h; sourceTree = "<group>"; };
+		D798BF801D59AF4600DDB2FC /* MyCustomerEditTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomerEditTextView.m; sourceTree = "<group>"; };
+		D798BF831D59D42400DDB2FC /* MyTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextVC.h; sourceTree = "<group>"; };
+		D798BF841D59D42400DDB2FC /* MyTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextVC.m; sourceTree = "<group>"; };
 		E322DC8969DD21A11FD256AE /* libPods-TilomPhick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TilomPhick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -233,6 +251,15 @@
 				E322DC8969DD21A11FD256AE /* libPods-TilomPhick.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7149A0B1D63026D00C1D1FD /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				D7149A0C1D63028C00C1D1FD /* PopVC.h */,
+				D7149A0D1D63028C00C1D1FD /* PopVC.m */,
+			);
+			path = PopView;
 			sourceTree = "<group>";
 		};
 		D72444BB1D45B74700022255 /* Tools */ = {
@@ -414,6 +441,8 @@
 		D743B6421D4727AE00BFFE34 /* CupVC */ = {
 			isa = PBXGroup;
 			children = (
+				D7149A0B1D63026D00C1D1FD /* PopView */,
+				D798BF821D59D38200DDB2FC /* TextField */,
 				D7675BB01D587ABF00E8900E /* Customer */,
 				D740BE9A1D531CD500A6F50B /* Scroller */,
 				D743B6461D4727CE00BFFE34 /* CupVC.h */,
@@ -652,8 +681,25 @@
 			children = (
 				D7675BB61D58865100E8900E /* MyCustomerView.h */,
 				D7675BB71D58865100E8900E /* MyCustomerView.m */,
+				D798BF761D59692300DDB2FC /* MyCustomerPickerView.h */,
+				D798BF771D59692300DDB2FC /* MyCustomerPickerView.m */,
+				D798BF791D5987AD00DDB2FC /* MyCustomerBottomPockerView.h */,
+				D798BF7A1D5987AD00DDB2FC /* MyCustomerBottomPockerView.m */,
+				D798BF7C1D59AADB00DDB2FC /* MyCustomerTextView.h */,
+				D798BF7D1D59AADB00DDB2FC /* MyCustomerTextView.m */,
+				D798BF7F1D59AF4600DDB2FC /* MyCustomerEditTextView.h */,
+				D798BF801D59AF4600DDB2FC /* MyCustomerEditTextView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D798BF821D59D38200DDB2FC /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				D798BF831D59D42400DDB2FC /* MyTextVC.h */,
+				D798BF841D59D42400DDB2FC /* MyTextVC.m */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 		FC52F95430C3AC157BF3BFA8 /* Pods */ = {
@@ -858,12 +904,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D798BF7E1D59AADB00DDB2FC /* MyCustomerTextView.m in Sources */,
 				D743B65B1D47516800BFFE34 /* EqualWidthButtonCell.m in Sources */,
 				D740BEAA1D531D4100A6F50B /* HZYHttpRequest.m in Sources */,
 				D740BEA51D531CE900A6F50B /* HZYListTabBar.m in Sources */,
 				D743B66A1D476A3400BFFE34 /* QlCreateAlertView.m in Sources */,
 				D74DEBF31D4214B600C93965 /* HomeModel.m in Sources */,
 				D74DEBCF1D420A2800C93965 /* BaseViewController.m in Sources */,
+				D798BF781D59692300DDB2FC /* MyCustomerPickerView.m in Sources */,
 				D72444E01D45EA4100022255 /* SideScrollingLayout.m in Sources */,
 				D72444DF1D45EA4100022255 /* SideScrollingCheckCell.m in Sources */,
 				D743B6611D47558600BFFE34 /* CustomerButton.m in Sources */,
@@ -872,6 +920,7 @@
 				D72444EE1D46071500022255 /* BaseTabBarViewController.m in Sources */,
 				D74DEB9B1D4201EC00C93965 /* AppDelegate.m in Sources */,
 				D740BEB61D531D6300A6F50B /* HZYNewsListViewController.m in Sources */,
+				D798BF7B1D5987AD00DDB2FC /* MyCustomerBottomPockerView.m in Sources */,
 				D730B4321D48D050008A3F46 /* JFMenuBtnView.m in Sources */,
 				D743B6511D474F4E00BFFE34 /* BaseTableViewCell.m in Sources */,
 				D743B6641D475C9B00BFFE34 /* UIButton+MyButton.m in Sources */,
@@ -888,6 +937,7 @@
 				D74DEB981D4201EC00C93965 /* main.m in Sources */,
 				D74DEBD21D420A5700C93965 /* BaseTableViewController.m in Sources */,
 				D74DEBEF1D42127100C93965 /* HttpTool.m in Sources */,
+				D798BF811D59AF4600DDB2FC /* MyCustomerEditTextView.m in Sources */,
 				D730B42F1D48D03D008A3F46 /* JFHomeMenuCell.m in Sources */,
 				D743B63A1D47146B00BFFE34 /* MSAlertController.m in Sources */,
 				D740BEB81D531D6300A6F50B /* HZYNewsCell.m in Sources */,
@@ -896,9 +946,11 @@
 				D72444DE1D45EA4100022255 /* ParallAxTableViewCells.m in Sources */,
 				D740BEB71D531D6300A6F50B /* HZYNewsModel.m in Sources */,
 				D740BEA31D531CE900A6F50B /* HZYLIistTabBarViewController.m in Sources */,
+				D7149A0E1D63028C00C1D1FD /* PopVC.m in Sources */,
 				D7675BB81D58865100E8900E /* MyCustomerView.m in Sources */,
 				D72444F11D46126500022255 /* BaseNavViewController.m in Sources */,
 				D7675BB31D587AD800E8900E /* CustomerTableVC.m in Sources */,
+				D798BF851D59D42400DDB2FC /* MyTextVC.m in Sources */,
 				D743B6481D4727CE00BFFE34 /* CupVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

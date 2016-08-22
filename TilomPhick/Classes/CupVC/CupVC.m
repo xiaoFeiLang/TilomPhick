@@ -10,6 +10,8 @@
 #import "HomeVC.h"
 #import "HZYLIistTabBarViewController.h"
 #import "CustomerTableVC.h"
+#import "MyTextVC.h"
+#import "PopVC.h"
 @interface CupVC ()
 {
     NSArray *items;
@@ -23,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    items = [@"Lunbo HZYLIistTabBarViewController(新闻) CustomerTableVC Delta Echo Foxtrot Golf Hotel India Juliet Kilo Lima Mike November Oscar Papa Romeo Quebec Sierra Tango Uniform Victor Whiskey Xray Yankee Zulu" componentsSeparatedByString:@" "];
+    items = [@"Lunbo HZYLIistTabBarViewController(新闻) CustomerTableVC TextField PopVC Golf Hotel India Juliet Kilo Lima Mike November Oscar Papa Romeo Quebec Sierra Tango Uniform Victor Whiskey Xray Yankee Zulu" componentsSeparatedByString:@" "];
     stateDictionary = [NSMutableDictionary dictionary];
     
     
@@ -103,6 +105,16 @@
         case 2:{
 //            自定义弹出的tableview
             CustomerTableVC *vc = [[CustomerTableVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 3:{
+            MyTextVC *vc = [[MyTextVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 4:{
+            PopVC *vc = [[PopVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

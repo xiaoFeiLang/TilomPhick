@@ -14,7 +14,6 @@
 @property (nonatomic, strong) NSString *content;
 @property (nonatomic, strong) NSString *cancel;
 @property (nonatomic, strong) NSString *sure;
-
 @property (nonatomic, strong) UILabel *titleLb;
 @property (nonatomic, strong) UILabel *contentLb;
 @property (nonatomic, strong) UIButton *cancelBt;
